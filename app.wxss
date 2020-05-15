@@ -1,0 +1,18 @@
+/**app.wxss**/
+@import '/miniprogram_npm/weui-miniprogram/weui-wxss/dist/style/weui.wxss';
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+page {
+  padding-bottom: 1rpx; /*解决小程序在iOS端使用margin时底部会被覆盖一块的问题  */
+  --height: 44px;  /*iOS端的标题栏高度*/
+}
+.android {
+  --height: 48px; /*android端的标题栏高度*/
+}

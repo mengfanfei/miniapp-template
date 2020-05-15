@@ -1,0 +1,23 @@
+{
+  "name": "miniapp-template",
+  "version": "1.0.0",
+  "description": "微信小程序模板（omix + api promise + weui）",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mengfanfei/miniapp-template.git"
+  },
+  "author": "mengfanfei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mengfanfei/miniapp-template/issues"
+  },
+  "homepage": "https://github.com/mengfanfei/miniapp-template#readme",
+  "dependencies": {
+    "miniprogram-api-promise": "^1.0.4",
+    "weui-miniprogram": "^1.0.3"
+  }
+}
